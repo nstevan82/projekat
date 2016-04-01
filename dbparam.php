@@ -1,4 +1,0 @@
-server_address
-mysql_username
-mysql_pass
-database_name
