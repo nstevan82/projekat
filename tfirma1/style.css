@@ -1,0 +1,361 @@
+header,section,footer,aside,article,nav,hgroup:display:block;
+div{border:0px solid black}
+
+a:link{color:black;}
+a:active{color:black;}
+a:visited{color:black;}
+a:hover{text-shadow:0px 0px 15px darkblue;color:blue}
+body 
+{
+/*-webkit-box-orient:vertical;
+-moz-orient:vertical;*/
+padding-left:auto;
+padding-right:auto;
+display:-moz-box;
+display:-webkit-box;
+-webkit-box-pack:center;
+-moz-pack:center;
+color:black;
+width:100%;
+-webkit-box-pack:center;
+-moz-box-pack:center;
+font-weight: 200;
+font-size: 10x;
+font-family: Arial;
+background-color: rgba(255, 255, 255, 0);
+}
+header{
+display:-moz-box;
+display:-webkit-box;
+text-align:center;
+width:100%;
+-webkit-box-flex:1;
+-moz-box-flex:1;
+background-size:100% 100%;
+border-top-left-radius:3% 20%;
+border-top-right-radius:3% 20%;
+}
+#big_wrapper
+{
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+display:-webkit-box;
+display:-moz-box;
+-webkit-box-orient:vertical;
+-moz-box-orient:vertical;
+-webkit-box-flex:1;
+-moz-box-flex:1;
+min-width:600px;
+max-width:1100px;
+width:100%;
+border:1px solid #C0C0C0;
+background-color: rgba(255, 255, 255, 0)
+}
+#main_section {
+text-align:center;
+background:white;
+display:-webkit-box;
+display:-moz-box;
+-webkit-box-orient:horizontal;
+-moz-orient:horizontal;
+-webkit-box-flex:1;
+-moz-box-flex:1;
+margin-left:10px;
+margin-right:10px;
+margin:0px;
+width:100%;
+background-color: rgba(255, 255, 255, 0.7)
+}
+div#meni{
+display:block;
+max-width:150px;
+margin-right:5px;
+background:#F5F5DC;
+display:-webkit-box;
+-webkit-box-flex:1;
+box-shadow: 1px 1px 5px #CCC;
+
+}
+div.box
+{
+padding:20px;
+background:#F5F5DC;
+border-radius:10px;
+border:1px solid #C0C0C0;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+box-shadow: 1px 1px 5px #CCC;
+}
+div#response {background:#FFFFFF;}
+article
+{padding:10px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+padding-left:50px;
+padding-right:50px;
+margin:0px;
+display:-webkit-box;
+-webkit-box-flex:1;
+-moz-box-flex:1;
+padding:10px;
+margin:10px;
+width:50%;
+background-color: rgba(255, 255, 255, 0);
+
+}
+footer#the_footer
+{
+display:block;
+text-align:center;
+padding-top:10px;
+padding-bottom:10px;
+}
+p.naslov
+{
+background:#B0C4DE;
+color:#152080;
+border-top:1px solid black;
+}
+
+tr
+{
+background:#F5F5DC;
+width:100%;
+}
+td{
+text-align:center;
+}
+th{
+background:#778899;
+}
+th#odgovor{
+background:#778899;
+
+}
+a {text-decoration:none;}
+
+.polje
+{
+text-align:left;
+padding:20px;
+background:#F5F5DC;
+border-radius:2%;
+border:1px solid #C0C0C0;
+margin:10px;
+}
+.odsek tr
+{
+text-align:left;
+}
+
+tr#pregled{background:#FFFFFF}
+td#pitanje {background: #FFD38D;
+text-align:justify;
+}
+td#odgovor {
+max-width:300px;
+background: #F5F5DC;
+text-align:justify;
+}
+table.lista
+{
+width:100%;
+margin-left:auto;
+margin-right:auto;
+}
+th {background:#0898D6}
+#avatar
+{
+position:absolute;
+left:10px;
+top:10px;
+}
+
+li.meni
+{
+transition-delay: .2s;
+
+width:100%;
+display:block;
+margin-left:auto;
+margin-right:auto;
+text-align:left;
+margin-left:5px;
+padding-right:5px;
+
+}
+li.meni:hover
+{
+border:1px solid #C8CC8C;
+background:#F5F5DC;
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+
+}
+ul.meni
+{
+list-style-type:square;
+padding-left:5px;
+} 
+/*CSS za dropdown box*/
+select
+{
+width: 200px;
+height: 29px;
+border-radius: 3px;
+border: 1px solid #CCC;
+font-weight: 200;
+font-size: 12px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+select: hover
+{
+width: 200px;
+height: 29px;
+border-radius: 3px;
+border: 1px solid #CCC;
+font-weight: 200;
+font-size: 12px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+select#pretraga
+{
+position:relative;
+top:-5px;
+}
+select#pretraga: hover
+{
+position:relative;
+top:-5px;
+}
+/*CSS za input textbox and password*/
+
+input[type='text'], input[type='password'], input[type='email']
+{
+width: 300px;
+height: 29px;
+border-radius: 3px;
+border: 1px solid #CCC;
+
+font-weight: 200;
+font-size: 13x;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+input[type='text']:hover, input[type='password']:hover, input[type='email']:hover
+{
+width: 300px;
+height: 29px;
+border-radius: 3px;
+border: 1px solid #aaa;
+#padding: 8px;
+font-weight: 200;
+font-size: 13px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+/*CSS za textarea*/
+
+textarea
+{
+
+width:70%;
+border-radius: 3px;
+border: 1px solid #CCC;
+padding: 8px;
+font-weight: 200;
+font-size: 12px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+textarea:hover
+{
+width:70%;
+border-radius: 3px;
+border: 1px solid #aaa;
+padding: 8px;
+font-weight: 200;
+font-size: 12px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+/*input type za submit button*/
+
+input[type='submit'],input[type='reset']
+{
+border: 2px solid white;
+background-color:#CCC;
+}
+input[type='submit']:hover,input[type='button']:hover, input[type='email']:hover,input[type='reset']:hover
+{
+#width: 150px;
+#height: 34px;
+border: 2px solid white;
+background-color:#000000;
+color:#fff;
+}
+input[type='submit'],input[type='button']
+{
+#width: 20%;
+height: 40px;
+border: 2px solid white;
+background-color:#CCC;
+}
+
+ul#glmeni
+{
+margin-left:auto;
+margin-right:auto;
+margin-top:10%;
+margin-bottom:auto;
+padding-top:10px;
+padding-bottom:10px;
+list-style:none;
+background:#E1ECFB;
+max-width:200px;
+margin-top:10px;
+border-bottom-left-radius:25px;
+}
+div#glmeni
+{
+style="margin-left:auto;
+margin-right:auto;
+padding-left:auto;
+padding-right:auto;
+border:1px solid blue;
+width:200px;
+border-bottom-left-radius:25px;
+border-top-right-radius:25px;
+box-shadow: 1px 4px 15px #CCC;"
+}
+footer#the_footer{
+background:#149ED9;
+}
+h3#naslov
+{
+margin-left:5px;
+margin-right:5px;
+}
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+width:100%;
+ }
+ 
+ div:hover{
+  background:#fffdd7;
+  border:1px solid #dad794;
+ }
+ 
+ 

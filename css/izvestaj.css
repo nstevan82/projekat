@@ -1,0 +1,15 @@
+@media print{
+th{
+background:#DFDFDB;
+}
+
+th{
+background:#DFDFDB;
+}
+table.izvestaj
+{
+border-collapse:collapse;
+border:1px solid black;
+width:100%;
+text-align:center;
+}
